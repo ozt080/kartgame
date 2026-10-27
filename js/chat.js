@@ -1,5 +1,5 @@
 if (typeof io !== 'undefined') {
-  const socket = io(location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://turbokarts-chat.dynu.net')
+  const socket = io(location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://turbokarts-chat.ddnsfree.com')
   const chat = document.getElementById('chat');
 
   socket.on('online', n => document.getElementById('online').textContent = n);

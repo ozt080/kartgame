@@ -46,7 +46,7 @@
     </div>
   </main>
   
-  <script src="https://turbokarts-chat.dynu.net/socket.io/socket.io.js"></script>
+  <script src="https://turbokarts-chat.ddnsfree.com/socket.io/socket.io.js"></script>
 <script src="js/chat.js"></script>
   <script src="js/game.js"></script>
 </body>

@@ -5,7 +5,7 @@ const { Server } = require('socket.io');
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
-  cors: { origin: ['http://localhost', 'https://turbokarts.dynu.net'] }
+  cors: { origin: ['http://localhost', 'https://turbokarts.freeddns.org'] }
 });
 
 app.get('/health', (req, res) => res.json({ ok: true }));
