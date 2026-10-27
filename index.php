@@ -10,6 +10,7 @@
 <body class="bg-dark text-light">
   <nav class="navbar navbar-dark bg-black">
     <div class="container"><span class="navbar-brand fw-bold">🏎️ Turbo Karts</span></div>
+    <a class="btn btn-sm btn-outline-light" href="aide.php">Aide</a>
   </nav>
 
   <main class="container py-4">
@@ -35,9 +36,18 @@
           <tbody id="board"></tbody>
         </table>
       </div>
+
+      <h2 class="h5 mt-4">💬 Chat <small class="text-secondary">(<span id="online">0</span> en ligne)</small></h2>
+<div id="chat" class="bg-black rounded p-2 mb-2" style="height:180px; overflow-y:auto; font-size:.9rem"></div>
+<div class="input-group">
+  <input id="msg" class="form-control" placeholder="Message..." maxlength="200">
+  <button id="send" class="btn btn-warning">Envoyer</button>
+</div>
     </div>
   </main>
-
+  
+  <script src="https://turbokarts-chat.dynu.net/socket.io/socket.io.js"></script>
+<script src="js/chat.js"></script>
   <script src="js/game.js"></script>
 </body>
 </html>

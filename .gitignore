@@ -1,1 +1,3 @@
 config.prod.php
+node_modules/
+config.prod.php
